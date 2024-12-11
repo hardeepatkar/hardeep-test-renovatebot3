@@ -3,6 +3,8 @@
   "extends": [
     "config:base"
   ],
+  "osvVulnerabilityAlerts": true,
+  "dependencyDashboardOSVVulnerabilitySummary": "all",
   "prHeader": "HardeepTestHeader",
   "assignees": [
     "hardeepatkar"
@@ -16,9 +18,6 @@
     {
       "matchPackagePatterns": ["maven"],
       "labels": ["maven-testlabel"]
-    },
-    {
-       "dependencyDashboardOSVVulnerabilitySummary": all
     }
   ]
 }
