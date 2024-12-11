@@ -16,6 +16,9 @@
     {
       "matchPackagePatterns": ["maven"],
       "labels": ["maven-testlabel"]
+    },
+    {
+       "dependencyDashboardOSVVulnerabilitySummary": all
     }
   ]
 }
